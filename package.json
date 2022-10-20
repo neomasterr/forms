@@ -1,0 +1,35 @@
+{
+  "name": "@neomasterr/forms",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "form.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neomasterr/forms.git"
+  },
+  "keywords": [
+    "js",
+    "component",
+    "event-emitter"
+  ],
+  "exports": {
+    ".": "./form.js",
+    "./component-events": "./component-events.js",
+    "./component-base": "./component-base.js"
+  },
+  "author": "neomasterr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neomasterr/forms/issues"
+  },
+  "homepage": "https://github.com/neomasterr/forms#readme",
+  "dependencies": {
+    "@neomasterr/component-element": "^1.0.2",
+    "@neomasterr/utils": "^1.0.2",
+    "imask": "^6.4.3"
+  }
+}
