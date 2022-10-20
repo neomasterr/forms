@@ -1,6 +1,6 @@
 {
   "name": "@neomasterr/forms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "type": "module",
   "main": "form.js",
@@ -18,8 +18,12 @@
   ],
   "exports": {
     ".": "./form.js",
-    "./component-events": "./component-events.js",
-    "./component-base": "./component-base.js"
+    "./form-inputs/base": "./form-inputs/base.js",
+    "./form-inputs/digit-code": "./form-inputs/digit-code.js",
+    "./form-inputs/phone": "./form-inputs/phone.js",
+    "./form-inputs/radio-group": "./form-inputs/radio-group.js",
+    "./form-inputs/radio": "./form-inputs/radio.js",
+    "./form-inputs/text": "./form-inputs/text.js"
   },
   "author": "neomasterr",
   "license": "MIT",
